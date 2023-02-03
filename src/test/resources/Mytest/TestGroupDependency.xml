@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="NewSuite">
+	<test name="TestGroupDependency">
+		<groups>
+			<dependencies>
+				<group name="sanity" depends-on="smoke" ></group>
+				<group name="regression" depends-on="sanity" ></group>
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="com.hyr.groupTest.TesrGroupDependency"></class>
+		</classes>
+	</test>
+</suite>

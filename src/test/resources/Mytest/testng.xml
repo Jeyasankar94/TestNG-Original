@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AssertionSuite">
+	<test name="Testng usingn Assertion1">
+		<classes>
+			<class name="com.hyr.tests.loginOrange">
+				<methods>
+					<include name="launchApp"></include>
+					<include name="enterLoginCredentials"></include>
+					<include name="verifyLogin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Testng usingn Assertion2">
+		<classes>
+			<class name="com.hyr.tests.loginOrange">
+				<methods>
+					<include name="launchApp"></include>
+					<include name="enterLoginCredentials"></include>
+					<include name="navigateToMyInfo"></include>
+					<include name="verifyMyInfo"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite> 

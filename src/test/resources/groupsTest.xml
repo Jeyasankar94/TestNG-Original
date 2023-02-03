@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+	<groups> 
+		<define name="dailyBuild"> <!--group of groups  -->
+			<include name="sanity" />
+			<include name="functional" /> 
+		</define>
+		<define name="weeklybuild"> <!--group of groups  -->
+			<include name="sanity" />
+			<include name="functional" />
+			<include name="smoke" />
+			<include name="regression" />
+		</define>
+	</groups>
+	<test name="Test1">
+		<groups>
+			<run>
+				<include name="weeklybuild" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.hyr.groupTest.NewTest1" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<groups>
+			<run>
+				<include name="dailybuild" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.hyr.groupTest.NewTest2" />
+		</classes>
+	</test>
+</suite>
+
+
+
+

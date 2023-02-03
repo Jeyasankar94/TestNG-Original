@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hyr.tests.ParametersSample">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="navigateToMyInfo"/>
+          <include name="launchApp"/>
+          <include name="verifyMyInfo"/>
+          <include name="tearDown"/>
+          <include name="enterLoginCredentials"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.hyr.tests.ParametersSample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

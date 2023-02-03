@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="10" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParametersSuite" duration-ms="32901" started-at="2023-01-30T02:33:24Z" finished-at="2023-01-30T02:33:57Z">
+    <groups>
+    </groups>
+    <test name="Testng using Parameters to Login" duration-ms="17098" started-at="2023-01-30T02:33:24Z" finished-at="2023-01-30T02:33:41Z">
+      <class name="com.hyr.tests.ParametersSample">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.hyr.tests.ParametersSample@36c88a32]" name="initialiseBrowser" is-config="true" duration-ms="4342" started-at="2023-01-30T02:33:24Z" finished-at="2023-01-30T02:33:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hyr.tests.ParametersSample@36c88a32]" name="launchApp" duration-ms="5074" started-at="2023-01-30T02:33:28Z" finished-at="2023-01-30T02:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="enterLoginCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.hyr.tests.ParametersSample@36c88a32]" name="enterLoginCredentials" duration-ms="2582" started-at="2023-01-30T02:33:33Z" finished-at="2023-01-30T02:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginCredentials -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.hyr.tests.ParametersSample@36c88a32]" name="verifyLogin" duration-ms="1213" started-at="2023-01-30T02:33:36Z" finished-at="2023-01-30T02:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown(java.lang.Long)[pri:0, instance:com.hyr.tests.ParametersSample@36c88a32]" name="tearDown" is-config="true" duration-ms="3850" started-at="2023-01-30T02:33:37Z" finished-at="2023-01-30T02:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hyr.tests.ParametersSample -->
+    </test> <!-- Testng using Parameters to Login -->
+    <test name="Testng using Parameters to verifyMyInfo" duration-ms="15752" started-at="2023-01-30T02:33:41Z" finished-at="2023-01-30T02:33:57Z">
+      <class name="com.hyr.tests.ParametersSample">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.hyr.tests.ParametersSample@2e4b8173]" name="initialiseBrowser" is-config="true" duration-ms="1637" started-at="2023-01-30T02:33:41Z" finished-at="2023-01-30T02:33:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hyr.tests.ParametersSample@2e4b8173]" name="launchApp" duration-ms="4849" started-at="2023-01-30T02:33:43Z" finished-at="2023-01-30T02:33:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="enterLoginCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.hyr.tests.ParametersSample@2e4b8173]" name="enterLoginCredentials" duration-ms="1219" started-at="2023-01-30T02:33:47Z" finished-at="2023-01-30T02:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginCredentials -->
+        <test-method status="PASS" signature="navigateToMyInfo()[pri:0, instance:com.hyr.tests.ParametersSample@2e4b8173]" name="navigateToMyInfo" duration-ms="3551" started-at="2023-01-30T02:33:49Z" finished-at="2023-01-30T02:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMyInfo -->
+        <test-method status="PASS" signature="verifyMyInfo()[pri:0, instance:com.hyr.tests.ParametersSample@2e4b8173]" name="verifyMyInfo" duration-ms="765" started-at="2023-01-30T02:33:52Z" finished-at="2023-01-30T02:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyInfo -->
+        <test-method status="PASS" signature="tearDown(java.lang.Long)[pri:0, instance:com.hyr.tests.ParametersSample@2e4b8173]" name="tearDown" is-config="true" duration-ms="3709" started-at="2023-01-30T02:33:53Z" finished-at="2023-01-30T02:33:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hyr.tests.ParametersSample -->
+    </test> <!-- Testng using Parameters to verifyMyInfo -->
+  </suite> <!-- ParametersSuite -->
+</testng-results>
