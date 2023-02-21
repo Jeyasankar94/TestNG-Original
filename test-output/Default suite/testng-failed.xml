@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hyr.tests.ParametersSample">
+      <class name="com.hyr.dataProvider.TestAttributes">
         <methods>
-          <include name="initialiseBrowser"/>
-          <include name="navigateToMyInfo"/>
-          <include name="launchApp"/>
-          <include name="verifyMyInfo"/>
-          <include name="tearDown"/>
-          <include name="enterLoginCredentials"/>
-          <include name="verifyLogin"/>
+          <include name="TestLogin"/>
         </methods>
-      </class> <!-- com.hyr.tests.ParametersSample -->
+      </class> <!-- com.hyr.dataProvider.TestAttributes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
